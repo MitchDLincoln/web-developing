@@ -15,12 +15,12 @@ Qui abbiamo un sito che cambia tema, ovvero colori, tramite un semplice click.
 
 > ##### Nuovo Branch (Ramo) da Locale to GitHub
 >
-> `git checkout -b nome_nuova_branch`
+> `git checkout -b nome_nuovo_ramo`
 >
-> Serve a creare e a spostarsi nella nuovo ramo
+> Serve a creare e a spostarsi nel nuovo ramo
 >
 > Dopo aver fatto modifiche e, quindi, `git add`, `git commit`
 >
-> `git push -u origin feature_branch_name`
+> `git push -u origin nome_nuova_ramo`
 >
 > In questo modo si inviano a un nouvo ramo.
