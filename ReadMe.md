@@ -13,7 +13,7 @@ Qui abbiamo un sito che cambia tema, ovvero colori, tramite un semplice click.
 
 #### Note, Tips e altro...
 
-> ##### Nouva Branch da Locale to GitHub
+> ##### Nuovo Branch (Ramo) da Locale to GitHub
 >
 > `git checkout -b nome_nuova_branch`
 >
