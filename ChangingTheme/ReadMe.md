@@ -1,13 +1,16 @@
-# :sunny: Site that change theme :new_moon:
+# :sunny: Sito che cambia Tema:new_moon:
 
-It's a simple site that change from light them to dark with a simple click!
+Un semplice sito che cambia tema con un semplice click!
 
-Check Out: [Mitch D. Lincoln](http://mitchdlincoln.tech/)
+<!-- Check Out: [Mitch D. Lincoln](http://mitchdlincoln.tech/) -->
 
-So
-
-### Tecnology
+### Tecnologie utilizzate:
 
 - HTML
+  : Per la struttura del sito, molto semplice;
+
 - CSS
+  : Per dare un po' di stile alla pagina e definire i temi (chiaro e scuro);
+
 - JavaScript
+  : Per chiambiare effettivamente il Tema e mantenerlo anche dopo la ricarica della pagina;
