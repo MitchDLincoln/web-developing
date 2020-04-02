@@ -17,3 +17,7 @@ Un semplice sito che cambia tema con un semplice click!
 
 termine
 : le banane sono gialle
+
+
+First Term
+: This is the definition of the first term.
