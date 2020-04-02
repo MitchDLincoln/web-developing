@@ -15,9 +15,11 @@ Un semplice sito che cambia tema con un semplice click!
 - JavaScript
   : Per chiambiare effettivamente il Tema e mantenerlo anche dopo la ricarica della pagina;
 
-termine
-: le banane sono gialle
 
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
 
-First Term
-: This is the definition of the first term.
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
