@@ -22,13 +22,13 @@ Un semplice sito che cambia tema con un semplice click!
 
 ## HTML
 
-    Semplice pagina con una barra di navigazione con tre voci: 'Home', 'About' e l'interrutore per cambiare tema.
-    L'interrutore sfutta `<input id="switch" type="checkbox" />` poi modelleato grazie al CSS.
-    Un piccolo header, non rettangolare, con il logo e un titolo,
-    Il corpo centrale con del testo fittizio.
+Semplice pagina con una barra di navigazione con tre voci: 'Home', 'About' e l'interrutore per cambiare tema.
+L'interrutore sfutta `<input id="switch" type="checkbox" />` poi modelleato grazie al CSS.
+Un piccolo header, non rettangolare, con il logo e un titolo,
+Il corpo centrale con del testo fittizio.
 
 ---
 
 ## CSS
 
-    Due file uno per lo stile genarela e, quindi, i temi il secondo per l'interrutore.
+Due file uno per lo stile genarela e, quindi, i temi il secondo per l'interrutore.
