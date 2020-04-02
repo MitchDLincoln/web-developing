@@ -6,7 +6,7 @@ Un semplice sito che cambia tema con un semplice click!
 
 ### Tecnologie utilizzate:
 
-- [HTML](#detail-html)
+- [HTML](#html)
 
   > Per la struttura del sito, molto semplice.
 
@@ -20,4 +20,4 @@ Un semplice sito che cambia tema con un semplice click!
 
 ---
 
-## HTML {#detail-html}
+## HTML
