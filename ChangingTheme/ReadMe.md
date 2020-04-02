@@ -6,13 +6,11 @@ Un semplice sito che cambia tema con un semplice click!
 
 ### Tecnologie utilizzate:
 
-<dl>
-  <dt>HTML</dt>
-  <dd>Per la struttura del sito, molto semplice;</dd>
+- HTML
+  ...Per la struttura del sito, molto semplice;
 
-  <dt>CSS</dt>
-  <dd>Per dare un po' di stile alla pagina e definire i temi (chiaro e scuro);</dd>
-  
-  <dt>JavaScript</dt>
-  <dd>Per chiambiare effettivamente il Tema e mantenerlo anche dopo la ricarica della pagina.</dd>
-</dl>
+- CSS
+  ...Per dare un po' di stile alla pagina e definire i temi (chiaro e scuro);
+
+- JavaScript
+  ...Per chiambiare effettivamente il Tema e mantenerlo anche dopo la ricarica della pagina;
