@@ -14,3 +14,6 @@ Un semplice sito che cambia tema con un semplice click!
 
 - JavaScript
   : Per chiambiare effettivamente il Tema e mantenerlo anche dopo la ricarica della pagina;
+
+termine
+: le banane sono gialle
