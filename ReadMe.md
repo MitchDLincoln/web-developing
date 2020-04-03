@@ -1,4 +1,4 @@
-# Benvenuti in ./CodingFun/WebDeveloping
+# Benvenuti in Web Developing
 
 In questa directory ci sono alcuni piccoli progettini che ho fatto o a cui sto lavorando.  
 Spero li trovitate utili o divertenti :monkey_face:
@@ -13,7 +13,7 @@ Qui abbiamo un sito che cambia tema, ovvero colori, tramite un semplice click.
 
 #### Note, Tips e altro...
 
-> ##### Nuovo Branch (Ramo) da Locale to GitHub
+> ##### Nuova Branch (Ramo) da Locale to GitHub
 >
 > `git checkout -b nome_nuovo_ramo`
 >
