@@ -1,0 +1,140 @@
+/* Variables */
+
+:root {
+  --blue-light00: #049DD9;
+  --blue-light01: #048ABF;
+  --blue-light02: #04B2D9;
+  --blue-light03: #5ED7F2;
+  --blue-light04: #05DBF2;
+  --blue-dark04: #2039CC;
+  --blue-dark03: #192DA1;
+  --blue-dark02: #111E6C;
+  --blue-dark01: #0C154A;
+  --blue-dark00: #080E33;
+}
+
+/* Theme */
+
+.light {
+  --bg: var(--blue-light04);
+  --bg-header: linear-gradient(var(--blue-light04), var(--blue-light00));
+  --text: var(--blue-dark00);
+  --border-color: var(--blue-dark04);
+}
+
+.dark {
+  --bg: var(--blue-dark00);
+  --bg-header: linear-gradient(var(--blue-dark00), var(--blue-dark04));
+  --text: var(--blue-light04);
+  --border-color: var(--blue-light00);
+}
+
+/* General Style */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Oxanium", cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+header {
+  padding: 1rem;
+  clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+  background: var(--bg-header);
+  margin-bottom: 1rem;
+  padding-bottom: 3.5rem;
+  text-align: center;
+}
+
+main {
+  min-height: 1000px;
+  padding: 2rem;
+}
+
+img {
+  margin: 2rem 0 0;
+  width: 180px;
+  object-fit: scale-down;
+}
+
+/* Class Style */
+
+/* Navbar */
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  width: 500px;
+  opacity: 0;
+  z-index: 2;
+  background: var(--bg-dropdown);
+  border-top: 2px solid var(--border-color);
+
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
+  transform: translateX(-40%);
+
+  transition: opacity 0.15s ease-out;
+}
+
+/* Logo Animation */
+
+@keyframes color-rotate {
+  from {
+      filter: blur(.5px) grayscale(80%);
+    }
+    to {
+        filter: blur(0) grayscale(0);
+  }
+}
+
+.logo:hover {
+  animation: color-rotate 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
